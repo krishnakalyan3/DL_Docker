@@ -1,0 +1,16 @@
+numpy 
+pandas
+scipy 
+scikit-learn 
+matplotlib 
+Seaborn
+keras 
+theano 
+tensorflow 
+h5py
+jupyter
+flask 
+flask-cors
+Pillow 
+bcolz 
+setuptools
