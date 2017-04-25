@@ -15,4 +15,3 @@ Pillow
 bcolz 
 setuptools
 kaggle-cli
-psutil
