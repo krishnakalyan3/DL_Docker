@@ -6,7 +6,7 @@ matplotlib
 Seaborn
 keras 
 theano 
-tensorflow 
+tensorflow-gpu 
 h5py
 jupyter
 flask 
