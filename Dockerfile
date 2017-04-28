@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y
 RUN	apt-get update --fix-missing -y
 RUN apt-get --assume-yes install python3-pip python-dev
 RUN apt-get --assume-yes install tmux build-essential gcc g++ make binutils htop screen
-RUN apt-get --assume-yes install software-properties-common unzip tree wget
+RUN apt-get --assume-yes install software-properties-common unzip tree wget vim
 
 ADD requirements.txt /tmp/requirements.txt
 RUN pip3 install -r /tmp/requirements.txt
