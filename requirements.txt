@@ -16,3 +16,4 @@ bcolz
 setuptools
 kaggle-cli
 torchvision
+Lasagne

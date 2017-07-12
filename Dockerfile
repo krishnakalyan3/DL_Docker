@@ -23,4 +23,9 @@ RUN pip3 install -r /tmp/requirements.txt
 # docker rm $(docker ps -a -q)
 # docker rmi $(docker images -a -q)
 
-# docker run -it -v /Users/krishna/MOOC/DL:`pwd` a82c964a9331 /bin/bash
+# docker run -it -v /Users/krishna/MOOC/DL:`pwd` 46d01b0f61b7 /bin/bash
+
+# docker run --rm --name Hadoop -h hadoop \
+#-p 8088:8088 -p 8042:8042 -p 50070:50070 -p 8888:8888 -p 4040:4040 \
+#-v $HOME/notebooks:/root/notebooks \
+#-ti izone/hadoop:ecosystem bash
