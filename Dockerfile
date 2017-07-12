@@ -15,6 +15,7 @@ RUN pip3 install -r /tmp/requirements.txt
 
 # docker build -t dl:python3 .
 # nvidia-docker run -it --rm -v `pwd`:`pwd` krishnakalyan3/dl_docker:latest /bin/bash
+# nvidia-docker run -it -v `pwd`:`pwd` krishnakalyan3/dl_docker:latest /bin/bash
 # from IPython.display import FileLink, FileLinks
 # docker run -it 8dbd9e392a96 /bin/bash
 
