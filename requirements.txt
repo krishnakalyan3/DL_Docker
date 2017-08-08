@@ -17,3 +17,4 @@ setuptools
 kaggle-cli
 torchvision
 lasagne
+scikit-image
